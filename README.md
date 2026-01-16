@@ -1,4 +1,7 @@
-<<<<<<< HEAD
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 # 🏎️ Formula 1 Race Predictor  
 ### Multi-Agent AI System for Formula 1 Race Outcome Forecasting
 
@@ -23,7 +26,7 @@ The project emphasizes:
 
 ## 🧠 System Architecture (Multi-Agent Design)
 
-![Architecture Diagram](images/architecture.png)
+<img src="images/architecture.png" alt="Architecture Diagram" width="200"/>
 
 ### Agent Responsibilities
 
@@ -99,20 +102,18 @@ Probabilities are **explicitly calibrated** to avoid unrealistic confidence.
 
 ---
 
-## 🖼️ Screenshots
+## Visual Overview
 
-### Dashboard & Input Selection
-![Dashboard](images/ui-home.png)
-
-### Race Prediction Output
-![Prediction Output](images/prediction-output.png)
-
-### Win Probabilities (Top 5 + Top 10)
-![Probabilities](images/top10-expander.png)
-
-### Explainability Output
-![Explanation](images/explanation.png)
-
+Dashboard & Input Selection
+<p align="center"> <img src="images/ui-home.png" alt="Dashboard" width="300"/> </p>
+Race Prediction Output
+<p align="center"> <img src="images/prediction-output.png" alt="Prediction Output" width="300"/> </p>
+Alternate Prediction View
+<p align="center"> <img src="images/prediction2.png" alt="Prediction Output 2" width="300"/> </p>
+Win Probabilities (Top 5 + Top 10)
+<p align="center"> <img src="images/top10-expander.png" alt="Win Probabilities" width="300"/> </p>
+Explainability Output
+<p align="center"> <img src="images/explanation.png" alt="Explainability Output" width="300"/> </p>
 ---
 
 ## 🎨 User Interface
@@ -164,5 +165,5 @@ pip install -r requirements.txt
 # Run the app
 streamlit run ui/app.py
 =======
-# proj2
->>>>>>> 418ff9e5e391f6f1792c2620190212774ff7304b
+
+
