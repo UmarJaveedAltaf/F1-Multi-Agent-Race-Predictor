@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🏎️ Formula 1 Race Predictor  
 ### Multi-Agent AI System for Formula 1 Race Outcome Forecasting
 
@@ -162,3 +163,6 @@ pip install -r requirements.txt
 
 # Run the app
 streamlit run ui/app.py
+=======
+# proj2
+>>>>>>> 418ff9e5e391f6f1792c2620190212774ff7304b
