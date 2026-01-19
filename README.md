@@ -1,15 +1,19 @@
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
 ![License](https://img.shields.io/badge/License-MIT-green)
+![Status](https://img.shields.io/badge/Status-Active-success)
+![AI](https://img.shields.io/badge/AI-Multi--Agent-informational)
 
-# 🏎️ Formula 1 Race Predictor  
+
+
+# Formula 1 Race Predictor  
 ### Multi-Agent AI System for Formula 1 Race Outcome Forecasting
 
 An explainable, multi-agent AI system that predicts Formula 1 race winners and podiums by combining **circuit characteristics**, **driver form**, and **constructor dominance** using real-world F1 data.
 
 ---
 
-## 🔍 Overview
+## Overview
 
 This project implements a **modular, multi-agent decision-support system** for Formula 1 race outcome prediction.
 
@@ -24,13 +28,13 @@ The project emphasizes:
 
 ---
 
-## 🧠 System Architecture (Multi-Agent Design)
+## System Architecture (Multi-Agent Design)
 
 <img src="images/architecture.png" alt="Architecture Diagram" width="200"/>
 
 ### Agent Responsibilities
 
-#### 🏁 Circuit Agent
+#### Circuit Agent
 Analyzes track-specific characteristics:
 - Qualifying importance  
 - Overtaking difficulty  
@@ -41,7 +45,7 @@ These features determine how much grid position, consistency, and race chaos mat
 
 ---
 
-#### 🏎️ Driver Agent
+#### Driver Agent
 Evaluates short-term driver performance:
 - Recent finishing positions  
 - Consistency metrics  
@@ -53,7 +57,7 @@ Focuses on **current momentum**, not historical reputation.
 
 ---
 
-#### 🏗️ Constructor Agent
+####  Constructor Agent
 Models team-level performance:
 - Average finish position  
 - Points per race  
@@ -64,7 +68,7 @@ Reflects the real-world impact of team strength in Formula 1.
 
 ---
 
-#### 🧩 Fusion Agent (Core Intelligence)
+####  Fusion Agent (Core Intelligence)
 Combines all upstream signals into final predictions.
 
 Key techniques:
@@ -80,7 +84,7 @@ Outputs:
 
 ---
 
-#### 🧠 Explainability Agent
+#### Explainability Agent
 Produces human-readable explanations describing:
 - Why a circuit favors certain drivers  
 - How qualifying, consistency, and team strength influenced the outcome  
@@ -90,13 +94,13 @@ This makes the system suitable as a **decision-support tool**, not a black box.
 
 ---
 
-## 📊 Example Output
+##  Example Output
 
 The system generates:
 - 🏆 Predicted race winner  
 - 🥇🥈🥉 Podium order  
-- 📊 Win probability bars (Top 5 + expandable Top 10)  
-- 🧠 Natural-language explanations  
+-  Win probability bars (Top 5 + expandable Top 10)  
+- Natural-language explanations  
 
 Probabilities are **explicitly calibrated** to avoid unrealistic confidence.
 
@@ -116,7 +120,7 @@ Explainability Output
 <p align="center"> <img src="images/explanation.png" alt="Explainability Output" width="300"/> </p>
 ---
 
-## 🎨 User Interface
+##  User Interface
 
 - Built with **Streamlit**
 - Custom **Red Bull–inspired dark theme** (red + black)
@@ -127,7 +131,7 @@ The UI is designed to resemble an **F1 telemetry / strategy dashboard**.
 
 ---
 
-## 🗂️ Data Sources
+##  Data Sources
 
 - **FastF1** — detailed race and session-level data  
 - **Jolpica API** (Ergast successor) — drivers, constructors, results  
@@ -136,7 +140,7 @@ Data is fetched dynamically and cached locally to respect API rate limits.
 
 ---
 
-## 🛡️ Design Philosophy & Limitations
+##  Design Philosophy & Limitations
 
 ### What this system is
 - An explainable AI decision-support system  
@@ -152,7 +156,7 @@ The system intentionally prioritizes **interpretability and calibration** over a
 
 ---
 
-## 🚀 Running Locally
+##  Running Locally
 
 ```bash
 # Create virtual environment
